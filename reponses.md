@@ -1,0 +1,3 @@
+Si j'essaie de supprimer une branche sur laquelle je suis, Git m'empêchera de le faire et me dira que je ne peux pas supprimer la branche active. Pour supprimer une branche, je dois d'abord changer de branche, par exemple avec git checkout main, puis je peux supprimer la branche avec git branch -d feature-1.
+
+Pour voir les différences entre main et feature-1, je peux utiliser git diff main..feature-1 pour comparer le contenu des fichiers. Si je veux voir les commits différents, je peux faire git log main..feature-1 --oneline.
